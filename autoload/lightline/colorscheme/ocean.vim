@@ -45,9 +45,9 @@ else
   let s:gray2 = s:c00
   let s:gray3 = s:c01
 
-  let s:p.inactive.left   = [ [ s:gray1,  s:bg ], [ s:gray1, s:bg ] ]
-  let s:p.inactive.middle = [ [ s:gray1, s:gray2 ] ]
-  let s:p.inactive.right  = [ [ s:gray1, s:bg ] ]
+  let s:p.inactive.left   = [ [ s:gray1, s:gray3 ], [ s:gray1, s:gray3 ] ]
+  let s:p.inactive.middle = [ [ s:gray1, s:gray3 ] ]
+  let s:p.inactive.right  = [ [ s:gray1, s:gray3 ] ]
 endif
 
 " Common
